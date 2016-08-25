@@ -1,24 +1,20 @@
-
-
 import java.util.Scanner;
-
 public class seed
 {
-
 	public static void main(String[] args)
 	{
 		Scanner sc=new Scanner(System.in);
-		
 		int n=sc.nextInt();
 		int n1=0;
 		int pro=0;
 		int f=0;
 		
-		for(int i=1;i<n;i++)
+		for(int i=1;i<n/2;i++)
 		{
-			pro=i;
+		
 			if(n%i==0)
 			{
+				pro=i;
 				n1=i;
 				do
 				{
