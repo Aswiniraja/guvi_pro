@@ -15,7 +15,7 @@ public class binary
 		for(int i=0;i<Math.pow(2,le);i++)
 			a[i]=Integer.toBinaryString(i);
 		
-		int temp=0;
+		String temp="";
 		
 		for(int i=0;i<Math.pow(2,le);i++)
 		{
