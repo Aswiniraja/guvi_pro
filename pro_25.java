@@ -37,7 +37,7 @@ public class binary
 					}
 				}
 			}
-			for(int i1=0;i1<le;i1++)
+			for(int i1=0;i1<Math.pow(2,le);i1++)
 			{
 				System.out.println(a[i1]);
 			}
